@@ -37,16 +37,16 @@ Calculator/
 
 1. Add Function
 The add function allows you to add two integers or multiple integers. It supports the following examples:
-add(1, 2)      // returns 3
-add(-1, -1)    // returns -2
-add(1, 2, 3, 4, 5)  // returns 15
+- add(1, 2)      // returns 3
+- add(-1, -1)    // returns -2
+- add(1, 2, 3, 4, 5)  // returns 15
 
 
 2.  Multiply Function
 The multiply function allows you to multiply two integers or multiple integers. It supports the following examples:
-multiply(1, 3)       // returns 3
-multiply(-1, 3)      // returns -3
-multiply(1, 2, 3, 4, 5)  // returns 120
+- multiply(1, 3)       // returns 3
+- multiply(-1, 3)      // returns -3
+- multiply(1, 2, 3, 4, 5)  // returns 120
 
 
 ## Test Coverage
@@ -58,6 +58,19 @@ The project includes unit tests for both the add and multiply methods. These tes
 
 
 ## Screenshots
+1. Add two Positive Numbers Test
+  <img src="https://github.com/user-attachments/assets/062aff08-1769-4320-abdf-31f785eaf6f1" style="vertical-align:middle;" /> 
+  <img src="https://github.com/user-attachments/assets/e135ab90-93af-47e0-9cd0-ae5614f0456c" style="vertical-align:middle;" />
+
+2. Add two Negative Number Test
+   
+3. Add Multiple positive numbers Test
+   
+4. Multiply two Positive numbers Test
+   
+5. Multiply two Negative Numbers Test
+    
+6. Multiply Multiple positive numbers Test
 
 ## Summary
 This project provides an introduction to Test Driven Development (TDD) by implementing a simple calculator that supports adding and multiplying multiple numbers. The process includes writing tests, implementing the functionality, and refactoring the code to ensure clarity and maintainability. By following TDD principles, you ensure that your code is thoroughly tested and reliable.
