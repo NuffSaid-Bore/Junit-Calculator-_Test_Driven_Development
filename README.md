@@ -25,13 +25,26 @@ The calculator supports the following functionality:
 - Refactor: After the tests pass, refactor the code to improve clarity and maintainability.
 
 ## Project Structure
+
 Calculator/
 │
 ├── src/
-│   ├── main/com/java/junit/Calculator.java         
-│   └── test/com/java/junit/CalculatorTest.java     
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── java/
+│   │               └── junit/
+│   │                   └── Calculator.java         
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── java/
+│                   └── junit/
+│                       └── CalculatorTest.java     
 │
-└── README.md        
+└── README.md
+
 
 ## Functionality
 
@@ -59,37 +72,46 @@ The project includes unit tests for both the add and multiply methods. These tes
 
 ## Screenshots
 
-1. Add two Positive Numbers Test
-  <img src="https://github.com/user-attachments/assets/80ebbaaa-6885-4b74-b11d-d1f9c3b90494" style="vertical-align:middle;" /> 
-  <img src="https://github.com/user-attachments/assets/46342e11-3b03-4d37-9e55-c4f71d1aea18" style="vertical-align:middle;" />
+1. **Add two Positive Numbers Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/80ebbaaa-6885-4b74-b11d-d1f9c3b90494" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/46342e11-3b03-4d37-9e55-c4f71d1aea18" style="vertical-align:middle;" />
+   </span>
 
+2. **Add two Negative Number Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/556b3820-9605-4eab-ac65-e2d343e3c149" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/d0b66765-29bc-4188-adfa-eb8cb68b7a8e" style="vertical-align:middle;" />
+   </span>
 
-2. Add two Negative Number Test
-  <img src="https://github.com/user-attachments/assets/556b3820-9605-4eab-ac65-e2d343e3c149" style="vertical-align:middle;" /> 
-  <img src="https://github.com/user-attachments/assets/d0b66765-29bc-4188-adfa-eb8cb68b7a8e" style="vertical-align:middle;" />
+3. **Add Multiple Positive Numbers Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/775df5cc-c0b6-4c54-934c-ea9209b011c4" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/65459edc-45c0-4dfd-9b11-c6ff5f49bdd0" style="vertical-align:middle;" />
+   </span>
 
+4. **Multiply two Positive Numbers Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/d614b931-0658-4162-aa42-9ecaa9007372" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/be6ef7c0-dd78-4dfc-b962-e42d25ebeb05" style="vertical-align:middle;" />
+   </span>
 
-3. Add Multiple positive numbers Test
-   <img src="https://github.com/user-attachments/assets/775df5cc-c0b6-4c54-934c-ea9209b011c4" style="vertical-align:middle;" /> 
-   <img src="https://github.com/user-attachments/assets/65459edc-45c0-4dfd-9b11-c6ff5f49bdd0" style="vertical-align:middle;" />
+5. **Multiply two Negative Numbers Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/fe7998d9-35d4-4d25-bdcf-fbfd41a8c216" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/97b5543b-4bfe-42c1-b7a3-4e8adfb71d05" style="vertical-align:middle;" />
+   </span>
 
+6. **Multiply Multiple Positive Numbers Test**  
+   <span style="display:inline;"> 
+     <img src="https://github.com/user-attachments/assets/dbea90aa-a823-4613-b31c-dcd69704eb43" style="vertical-align:middle;" /><br>
+     <img src="https://github.com/user-attachments/assets/887ea52d-8ae5-47f5-bb09-f9f70b8b068b" style="vertical-align:middle;" />
+   </span>
 
-4. Multiply two Positive numbers Test
-   <img src="https://github.com/user-attachments/assets/d614b931-0658-4162-aa42-9ecaa9007372" style="vertical-align:middle;" /> 
-   <img src="https://github.com/user-attachments/assets/be6ef7c0-dd78-4dfc-b962-e42d25ebeb05" style="vertical-align:middle;" />
+## All Tests Passed  
+   <img src="https://github.com/user-attachments/assets/4d695f65-64b2-4f5d-a31d-d74103765564" style="vertical-align:middle;" />
 
-
-5. Multiply two Negative Numbers Test
-   <img src="https://github.com/user-attachments/assets/fe7998d9-35d4-4d25-bdcf-fbfd41a8c216" style="vertical-align:middle;" /> 
-   <img src="https://github.com/user-attachments/assets/97b5543b-4bfe-42c1-b7a3-4e8adfb71d05" style="vertical-align:middle;" />
-   
-
-6. Multiply Multiple positive numbers Test
-   <img src="https://github.com/user-attachments/assets/dbea90aa-a823-4613-b31c-dcd69704eb43" style="vertical-align:middle;" /> 
-   <img src="https://github.com/user-attachments/assets/887ea52d-8ae5-47f5-bb09-f9f70b8b068b" style="vertical-align:middle;" />
-
-## All Tests Passed
-  <img src="https://github.com/user-attachments/assets/4d695f65-64b2-4f5d-a31d-d74103765564" style="vertical-align:middle;" /> 
+ 
 
 ## Summary
 This project provides an introduction to Test Driven Development (TDD) by implementing a simple calculator that supports adding and multiplying multiple numbers. The process includes writing tests, implementing the functionality, and refactoring the code to ensure clarity and maintainability. By following TDD principles, you ensure that your code is thoroughly tested and reliable.
